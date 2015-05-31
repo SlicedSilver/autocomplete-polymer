@@ -1,0 +1,27 @@
+{
+  "name": "autocomplete-polymer",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Polymer element and attribute autocompletions",
+  "keywords": ["Polymer","Autocomplete","Web Components","Components","Atom"],
+  "repository": "https://github.com/SlicedSilver/autocomplete-polymer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "esprima": "^2.2.0",
+    "scandal": "2.0.0",
+    "temp": "0.8.1"
+  },
+  "author": {
+    "name": "Mark Silverwood"
+  }
+}
