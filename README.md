@@ -4,7 +4,8 @@
 
 Polymer element tag and attribute autocompletions in Atom.
 
-![html-completions](https://cloud.githubusercontent.com/assets/4392286/7382905/705e6174-ee59-11e4-88bf-40bd553a336c.gif)
+
+:movie_camera: [Preview video of autocomplete-polymer in action](https://dl.dropboxusercontent.com/u/6808702/autocomplete-polymer-preview.mp4)
 
 ### Package Installation
 From the Atom editor menus, navigate to `Atom -> Preferences`.  
@@ -31,7 +32,7 @@ The package builds a list of autocompletions by:
 - Required to run the update command whenever there is a need to refresh the completions dictionary.
 
 ### Acknowledgements
-This project is a fork of the [autocomplete-html](https://github.com/atom/autocomplete-html) project.  The project makes use of [scandal](https://github.com/atom/scandal) for directory scanning and file searching, and [esprima](http://http://esprima.org/) for the javascript analysis.
+This project is a fork of the [autocomplete-html](https://github.com/atom/autocomplete-html) project.  The project makes use of [scandal](https://github.com/atom/scandal) for directory scanning and file searching, [esprima](http://http://esprima.org/) for the javascript analysis and [estraverse](https://github.com/estools/estraverse) for the transversal of the abstract syntax tree.
 
 ### Bugs, Improvements, Requests
 Please add an issue in the GitHub repository if you find any bugs, have improvement ideas, or requests.

@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-polymer",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Polymer element and attribute autocompletions",
   "keywords": ["Polymer","Autocomplete","Web Components","Components","Atom"],
   "repository": "https://github.com/SlicedSilver/autocomplete-polymer",
@@ -19,7 +19,8 @@
   "dependencies": {
     "esprima": "^2.2.0",
     "scandal": "2.0.0",
-    "temp": "0.8.1"
+    "temp": "0.8.1",
+    "estraverse": "^4.1.0"
   },
   "author": {
     "name": "Mark Silverwood"
