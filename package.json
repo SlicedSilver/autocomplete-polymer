@@ -1,9 +1,15 @@
 {
   "name": "autocomplete-polymer",
   "main": "./lib/main",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Polymer element and attribute autocompletions",
-  "keywords": ["Polymer","Autocomplete","Web Components","Components","Atom"],
+  "keywords": [
+    "Polymer",
+    "Autocomplete",
+    "Web Components",
+    "Components",
+    "Atom"
+  ],
   "repository": "https://github.com/SlicedSilver/autocomplete-polymer",
   "license": "MIT",
   "engines": {
