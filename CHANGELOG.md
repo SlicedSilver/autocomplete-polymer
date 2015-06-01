@@ -9,5 +9,5 @@
 * Improved javascript analyse function. Now identifies more polymer elements correctly.
 * Fixed camelCase renaming.
 
-## 0.1.0 - First Release
-* Initial Release
+## 0.1.0 - First Internal Release
+* Initial Internal Release
