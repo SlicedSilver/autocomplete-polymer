@@ -183,13 +183,13 @@ module.exports =
     @completions.tags[tag]?.attributes ? []
 
   getTagDocsURL: (tag) ->
-    "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/#{tag}"
+    "https://elements.polymer-project.org/elements/#{tag}"
 
   getLocalAttributeDocsURL: (attribute, tag) ->
     "#{@getTagDocsURL(tag)}#attr-#{attribute}"
 
   getGlobalAttributeDocsURL: (attribute) ->
-    "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/#{attribute}"
+    "http://polymer.github.io/polymer/"
 
 firstCharsEqual = (str1, str2) ->
   str1[0].toLowerCase() is str2[0].toLowerCase()
