@@ -31,6 +31,14 @@ The package builds a list of autocompletions by:
 - Only scans `js` and `html` files.
 - Required to run the update command whenever there is a need to refresh the completions dictionary.
 
+### Recommended Packages for Atom
+- For Polymer snippets check out: [atom-polymer](https://atom.io/packages/atom-polymer)  
+- Html autocompletions: [autocomplete-html](https://atom.io/packages/autocomplete-html)  
+- Automatic closing of html tags: [autoclose-html](https://atom.io/packages/autoclose-html)  
+- File path autocompletions: [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
+- Html code linter: [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
+
+
 ### Acknowledgements
 This project is a fork of the [autocomplete-html](https://github.com/atom/autocomplete-html) project.  The project makes use of [scandal](https://github.com/atom/scandal) for directory scanning and file searching, [esprima](http://http://esprima.org/) for the javascript analysis and [estraverse](https://github.com/estools/estraverse) for the transversal of the abstract syntax tree.
 

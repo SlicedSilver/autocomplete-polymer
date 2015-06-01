@@ -8,7 +8,9 @@
     "Autocomplete",
     "Web Components",
     "Components",
-    "Atom"
+    "Atom",
+    "Polymer.js",
+    "web-components"
   ],
   "repository": "https://github.com/SlicedSilver/autocomplete-polymer",
   "license": "MIT",

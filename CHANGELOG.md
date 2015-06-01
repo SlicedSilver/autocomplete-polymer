@@ -1,3 +1,7 @@
+## 0.2.2
+* Added more keywords to package description.
+* Added new section to README: Recommended Packages.
+
 ## 0.2.1
 * Now displays a modal message when update task has completed.
 * Links to PolymerElements docs now added. Click the more link at the bottom of the completions dropdown.
