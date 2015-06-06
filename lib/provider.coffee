@@ -151,11 +151,17 @@ module.exports =
     if currentPath
       fs.readFile path.resolve(currentPath, '.ac-poly.json'), (error, content) =>
         @completions = JSON.parse(content) unless error?
+        if !@completions
+          @loadBlank()
         return
     else
-      fs.readFile path.resolve(__dirname, '..', 'completions_blank.json'), (error, content) =>
-        @completions = JSON.parse(content) unless error?
-        return
+      @loadBlank()
+
+  loadBlank: ->
+    @completions = {}
+    fs.readFile path.resolve(__dirname, '..', 'completions_blank.json'), (error, content) =>
+      @completions = JSON.parse(content) unless error?
+      return
 
   getPreviousTag: (editor, bufferPosition) ->
     {row} = bufferPosition
