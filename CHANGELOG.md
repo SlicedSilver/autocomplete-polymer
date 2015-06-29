@@ -1,3 +1,6 @@
+## 0.2.4
+* Fixes a few crashes (mainly resulting from an invalid .ac-poly.json file)
+
 ## 0.2.3
 * Can now load autocompletes for polymer elements which don't have the `is` property set within the script but only in the `dom-module` `id`. This is expected to be allowed in the Polymer spec in the future.
 * Fixes a few crashes (mainly resulting from missing .ac-poly.json files)

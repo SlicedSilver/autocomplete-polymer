@@ -153,9 +153,23 @@ module.exports =
         @completions = JSON.parse(content) unless error?
         if !@completions
           @loadBlank()
+        else if !@validateLoadedJSON(@completions)
+          @loadBlank()
         return
     else
       @loadBlank()
+
+  validateLoadedJSON: (input) ->
+    @valid = true
+    if !input
+      @valid = false
+    if !input.tags
+      @valid = false
+    if !input.attributes
+      @valid = false
+    if @valid and input.tags.length == 0
+      @valid = false
+    @valid
 
   loadBlank: ->
     @completions = {}
