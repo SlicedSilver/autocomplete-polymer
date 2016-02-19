@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "esprima": "^2.2.0",
-    "scandal": "2.0.0",
+    "scandal": "2.2.0",
     "temp": "0.8.1",
     "estraverse": "^4.1.0"
   },
