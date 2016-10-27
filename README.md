@@ -1,3 +1,7 @@
+# Note
+This package has not been maintained and may no longer work or install correctly.
+Rather use the official Polymer IDE tools which include linting and auto-complete. [https://atom.io/packages/polymer-ide](https://atom.io/packages/polymer-ide)
+
 ![polymer autocomplete logo](https://cloud.githubusercontent.com/assets/3482679/7901748/3685cfb6-0798-11e5-8865-6106193cc2e4.png)  
 
 ## Polymer Autocomplete Package
